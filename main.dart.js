@@ -62979,10 +62979,10 @@ return s==null?0:s},
 AN(){var s=A.e0(J.b5(this.a.a,"successul_attemps"))
 return s==null?0:s}}
 A.Fo.prototype={
-L(a){var s,r=null,q=this.d,p=this.c,o=B.d.P(q/p,1),n=a.V(t.yS)
+L(a){var s,r=null,q=this.d,p=this.c,o=B.d.P(q/p*100,1),n=a.V(t.yS)
 if(n==null)n=B.lT
 s=A.a([A.ec(r,B.eC,B.h.i(p)),B.Hk,A.ec(r,B.eC,B.h.i(q))],t.Ne)
-if(p!==0&&q!==0)B.b.K(s,A.bJ([B.Hm,A.ec(r,B.eC,o)],t.AS))
+if(p!==0&&q!==0)B.b.K(s,A.bJ([B.Hm,A.ec(r,B.eC,o+" %")],t.AS))
 return A.YC(r,r,B.bQ,r,r,!0,r,A.ec(s,n.w,"Total attempts: "),B.bt,r,r,1,B.aI)}}
 A.WM.prototype={
 Pl(a){$.aa1().a.set(this,a)}}
